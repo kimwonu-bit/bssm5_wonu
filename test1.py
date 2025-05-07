@@ -5,9 +5,9 @@ tab1, tab2 = st.tabs(['Tab A', 'Tab B'])
 with col1 :
     st.title("here is column1 title")
     with tab1 :
-        st.write('hello')
+        st.write('은총이')
     with tab2 :
-        st.write("hi")
+        st.write("바보")
 
 with col2 :
     st.title("here is column2 title")
