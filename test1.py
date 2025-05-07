@@ -1,11 +1,11 @@
 import streamlit as st
 
 col1, col2 = st.columns([2, 3])
-tab1, tab2 = st.tabs(['Tab A', 'Tab B'])
+tab1, tab2 = st.tabs(['은', '총'])
 with col1 :
     st.title("here is column1 title")
     with tab1 :
-        st.write('은총이')
+        st.write('은총아')
     with tab2 :
         st.write("바보")
 
