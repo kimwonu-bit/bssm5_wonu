@@ -5,7 +5,8 @@ tab1, tab2 = st.tabs(['은', '총'])
 with col1 :
     st.title("here is column1 title")
     with tab1 :
-        st.write('은총이')
+        st.write('은총이' \
+        '오호?')
     with tab2 :
         st.write("바보...캘빈이 뭐에요?????????")
 
